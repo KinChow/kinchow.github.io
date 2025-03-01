@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>洞察基础知识 - MyKnowledge</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../../../css/brands.min.css" rel="stylesheet">
+        <link href="../../../../css/solid.min.css" rel="stylesheet">
+        <link href="../../../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../../..">MyKnowledge</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../../.." class="nav-link">MyKnowledge</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Work methods</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../contents/" class="dropdown-item">工作方法</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">AAR</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../AAR/AAR/" class="dropdown-item">AAR</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">IPD</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../IPD/IPD/" class="dropdown-item">IPD</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">A day of a programmer</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../a-day-of-a-programmer/a-day-of-a-programmer/" class="dropdown-item">程序员的一天</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Insight</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../contents/" class="dropdown-item">洞察</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Insight</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">洞察基础知识</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Report</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../report/report/" class="dropdown-item">如何E2E写一份高质量洞察报告</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Model</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../model/model/" class="dropdown-item">模型</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Project management</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../project-management/contents/" class="dropdown-item">项目管理</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Template</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../template/contents/" class="dropdown-item">模板</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Algorithm manual</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../template/algorithm-manual/algorithm-manual/" class="dropdown-item">算法说明书</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                            <li class="nav-item">
+                                <a rel="prev" href="../../contents/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../report/report/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#_1" class="nav-link">洞察基础知识</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#_2" class="nav-link">洞察基本介绍</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4321" class="nav-link">如何做洞察4321法</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_20" class="nav-link">洞察的个人修炼</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="_1">洞察基础知识</h1>
+<h2 id="_2">洞察基本介绍</h2>
+<h3 id="_3">什么是洞察</h3>
+<h4 id="vs">洞察力定义（表象vs本质）</h4>
+<ul>
+<li>洞察力就是对事物或问题本质的把握，透过现象看本质，也就是找到问题的关键点和主要矛盾。</li>
+<li>汉典：看穿，观察得很透彻；发现内在的内容或意义</li>
+<li>牛津字典：an understanding of what something is like; the ability to see and understand the truth about people or situations.</li>
+</ul>
+<h4 id="_4">洞察定义</h4>
+<ul>
+<li>IBM在BLM定义：建立市场洞察力的目的是为了清晰地知道未来的机遇和企业可能碰到的挑战和风险，是要理解和解释市场上正在发生什么，以及这些改变对公司来说意味着什么。（当前 vs 未来）</li>
+<li>洞察的过程：”通过各种渠道收集信息，对数据和信息进行分析整理，形成关键发现并给出可执行建议。“</li>
+</ul>
+<h4 id="_5">核心价值</h4>
+<ul>
+<li>识别价值转移，发现重大线索、风险及不确定性。</li>
+<li>带来确有实据的业务新知。</li>
+<li>识别并推动解决问题。</li>
+</ul>
+<h4 id="_6">洞察过程三个阶段</h4>
+<ul>
+<li>是什么：数据+事实</li>
+<li>为什么：逻辑+推理</li>
+<li>现在：怎么做</li>
+<li>未来会怎样：预判</li>
+</ul>
+<h4 id="_7">洞察输出三阶</h4>
+<ul>
+<li>数据：被动</li>
+<li>信息：主动</li>
+<li>洞察：预判</li>
+</ul>
+<h3 id="_8">谁需要洞察</h3>
+<h4 id="pacdhr">全员（PACD、HR等）</h4>
+<ol>
+<li>如何获取洞察分析报告和学习盗源？</li>
+<li>如何基于洞察的作业平台开展工作？</li>
+</ol>
+<h4 id="_9">作战指挥官（主官、主管）</h4>
+<ol>
+<li>如何有效利用洞察盗源？</li>
+<li>如何构建团队的人人洞察能力？</li>
+</ol>
+<h4 id="_10">兼职洞察（业务规划、市场管理、产品管理等）</h4>
+<ol>
+<li>
+<p>如何在各自工作场景中调用洞察能力？</p>
+</li>
+<li>
+<p>相互之间如何协同？如何与专职MI协同？</p>
+</li>
+</ol>
+<h4 id="_11">专职洞察</h4>
+<ol>
+<li>跨领域协同？行业洞察、一线及军团作战支撑</li>
+<li>洞察数字化工作平台、专家网络</li>
+</ol>
+<h3 id="_12">洞察什么</h3>
+<p>没有问题的洞察是无的放矢，没有假设的洞察将是盲目的</p>
+<h2 id="4321">如何做洞察4321法</h2>
+<h3 id="_13">四种工作模式</h3>
+<ul>
+<li>Deep dive洞察（深）<ul>
+<li>SP C2、细分市场洞察、战略专题洞察、CSPA</li>
+</ul>
+</li>
+<li>热点洞察（快）<ul>
+<li>XX展会（如MWC）洞察、热点事件洞察</li>
+</ul>
+</li>
+<li>例行洞察（新）<ul>
+<li>宏观洞察月报、XX专题洞察月报</li>
+</ul>
+</li>
+<li>本质规律洞察（透）<ul>
+<li>本质+趋势+价值</li>
+</ul>
+</li>
+</ul>
+<h3 id="_14">洞察项目运作的三阶九步法</h3>
+<ul>
+<li>选题（提出问题）<ul>
+<li>确定洞察问题（目标）</li>
+<li>确定项目计划</li>
+<li>开发假设、分解问题（框架/模型）</li>
+</ul>
+</li>
+<li>解题（分析问题）<ul>
+<li>收集信息（数据＋事实）</li>
+<li>提炼信息（结构＋逻辑）</li>
+<li>输出观点（本质+规律）</li>
+<li>形成报告（Story line）</li>
+</ul>
+</li>
+<li>应用（解決问题）<ul>
+<li>内外部交流<ul>
+<li>决策者汇报</li>
+<li>公司内部专题分享交流</li>
+<li>客户交流/分析师交流</li>
+</ul>
+</li>
+<li>跟踪闭环<ul>
+<li>战路洞察是否落入SP业务设计/战略目标/BP</li>
+<li>市场洞察是否落入MSP</li>
+<li>需求洞察是否落入Charter/OBP</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="_15">产生洞察观点的两个核心逻辑</h3>
+<ul>
+<li>开发假设（预设的观点）</li>
+<li>收集证据（事实/数据）</li>
+<li>
+<p>确认观点（量化/验证）</p>
+</li>
+<li>
+<p>收集信息（框架/模型）</p>
+</li>
+<li>分析提炼（本质/规律 ）</li>
+<li>关键发现（新观点）</li>
+</ul>
+<h3 id="_16">一个底线原则</h3>
+<ul>
+<li>合法合规</li>
+</ul>
+<h3 id="_17">如何写报告</h3>
+<p>胶片写作的三个关键要点</p>
+<h4 id="pass">整体：PASS原则</h4>
+<ul>
+<li>P：Purpose 洞察的目标或意图<ul>
+<li>这个洞察的目的是什么？</li>
+<li>本材料回答的TOP 3问题？</li>
+</ul>
+</li>
+<li>A：Audienice 材料面同的读者<ul>
+<li>不同客户的差异，CTO, CMO, Director, or GM</li>
+<li>读者的偏好：学习者 or 管理层 or 关注技术 or 关注商业？</li>
+<li>有无特殊背景？（比如胶片阅读者的背景知识）</li>
+</ul>
+</li>
+<li>S：Structure 如何组织传递讯息內容<ul>
+<li>总分结构 or 分总结构？</li>
+<li>演绎逻辑 or推论逻辑？</li>
+<li>挑战/方案/案例or 讲改事？</li>
+</ul>
+</li>
+<li>S: Style 商业工程胶片<ul>
+<li>合适的用词，证据和语调</li>
+<li>字体、模板、背景等格式统一</li>
+</ul>
+</li>
+</ul>
+<h4 id="_18">格式</h4>
+<ul>
+<li>亲密性（Proximity）<ul>
+<li>1页内容归为3~5个组。物理上接近=意义上关联</li>
+</ul>
+</li>
+<li>对齐 （Alignment）<ul>
+<li>信息元素具备明确的对齐基准</li>
+</ul>
+</li>
+<li>对比 （Contrast）<ul>
+<li>对比一定要形成强烈。醒目印象</li>
+</ul>
+</li>
+<li>重复 （Repetition）<ul>
+<li>字体格式统一，或某视觉要素重复出现</li>
+</ul>
+</li>
+</ul>
+<h4 id="_19">文字</h4>
+<ul>
+<li>数字<ul>
+<li>用数据冲击用户的视觉，给用户一个直观的概念，人对数字是很敏感的。每个人心里部有对事物衡量的标准，也就是用户自己会有一个“数据”。</li>
+</ul>
+</li>
+<li>个性<ul>
+<li>有一些个性化的词汇让用户产生信任感和好感，比如一些地标，名人、每天常见的事物，都能让人有熟悉的感觉！在标题之中融入这些元素，不仅更容是得到读者的认可，而且当他帮你传播的时候，也更容易脱口而出。</li>
+</ul>
+</li>
+<li>比较<ul>
+<li>比较，包括：疑问、对比、反常、矛盾、戏剧、冲突、否定，争议等</li>
+</ul>
+</li>
+<li>大白话<ul>
+<li>在日常生活中，人们不会用书面语来交流，所以你写一句书回语的文案，用户可以读，但他不会用来说，也不会把这句话说给别人听，你的传播也就断送了，而判断文案好坏的最直接的标准就是传播量，所以建议大家文案“口语化”。</li>
+</ul>
+</li>
+<li>小而精<ul>
+<li>标题应读短小而精致，更总结出文章的中心意思，用简单的语言体现在标题上，让读者一看就能知道该文的大概信息是什么</li>
+</ul>
+</li>
+</ul>
+<h2 id="_20">洞察的个人修炼</h2>
+<h3 id="_21">如何成长为洞察专家</h3>
+<h4 id="_22">洞察人员日常积累</h4>
+<ul>
+<li>以终为始，判断与推理可以销误，但避免模糊<ul>
+<li>自问自答，每个新闻文章报告的阅读，多想一下：是这样的吗？</li>
+</ul>
+</li>
+<li>不停练习提出好问题，好假设；保底就是大数据分析<ul>
+<li>自问自答，每次阅读都养成自我反问习偶：是这样的吗？</li>
+</ul>
+</li>
+<li>把握起承转合，复杂事情简单化，少数场景简单事情复杂化<ul>
+<li>多练习分析，不随波逐流，多个角度看一个事情，魔鬼藏在细节里</li>
+</ul>
+</li>
+<li>多写作，多学习成功案例<ul>
+<li>写作需要练习，多阅读成功案例都是练习表达和逻辑分析能力</li>
+</ul>
+</li>
+<li>涉猎广泛，培养阅读习惯<ul>
+<li>书、新闻、分析文章</li>
+</ul>
+</li>
+<li>多与客户，同事，朋友聊聊天<ul>
+<li>问题是：你有谈资吗？如果没有，为何没有？</li>
+</ul>
+</li>
+</ul>
+<h4 id="_23">洞察人员能力模型</h4>
+<ul>
+<li>预测<ul>
+<li>包含洞察后追踪</li>
+</ul>
+</li>
+<li>判断推理<ul>
+<li>经验法则，分类与量化分析结果</li>
+</ul>
+</li>
+<li>逻辑分析<ul>
+<li>练习”提出假设，设计方法，得到验证“</li>
+</ul>
+</li>
+<li>经验＋技巧<ul>
+<li>（一手信息）参与项目，客户交流，多写作</li>
+<li>（二手）案例学习</li>
+</ul>
+</li>
+<li>知识+常识<ul>
+<li>教育，培训，阅读资讯书报，扩大生活圈多聊天</li>
+</ul>
+</li>
+</ul>
+<h4 id="_24">洞察关键资源</h4>
+<ul>
+<li>理论<ul>
+<li>框架+模型+规律</li>
+</ul>
+</li>
+<li>知识平台<ul>
+<li>报告+数据</li>
+</ul>
+</li>
+<li>工具技巧<ul>
+<li>小软件+技巧</li>
+</ul>
+</li>
+<li>思维<ul>
+<li>结构化/系统化</li>
+</ul>
+</li>
+<li>专家/朋友圈<ul>
+<li>内部+外部</li>
+</ul>
+</li>
+</ul>
+<h4 id="_25">理论</h4>
+<ul>
+<li>框架：通常指利用结构化思维，将一个复杂何题，分解为多个子问题/子场景，从而化繁为简<ul>
+<li>产业洞察：产业趋势、产业空间、产业政策、商业设计、产业链</li>
+<li>客户洞察：SBOIP，客户战略、客户业务、客户运营、客户网络基础设施、客户组织流程</li>
+<li>宏观洞察：PESTLIED，政治、经济、社会、技术、法律、国际化、环境、人口</li>
+<li>行业洞察：行业概况、市场格局、标杆企业、行业痛点</li>
+</ul>
+</li>
+<li>模型：通常指利用系统化思维，围绕一个问题，分析此问题的多个相互关联的要素或步骤<ul>
+<li>BLM：业务领导力模型，公司战略规划常用模型</li>
+<li>波特五力：适用于分析客户/产业的竞争环境</li>
+<li>KANO：客户满意度模型，对用户需求分类和优先排序</li>
+<li>SWOT：态势分析法，用于企业战略制定、竞争对手分析等</li>
+<li>GE矩阵：又称麦肯锡矩阵、九盒矩阵法等，常用于投资组合分析</li>
+</ul>
+</li>
+<li>
+<p>规律；根据某一条件，得到相应结果，类似物理学中的“定理”</p>
+<ul>
+<li>裂谷期产业发展规律：新技术/产业发展中，当市场渗透率接近20％，将迎来爆发式增长</li>
+</ul>
+</li>
+<li>
+<p>框架/模型/规律千千万万，关键是平时多积累，需要用时才能得心应手</p>
+</li>
+<li>框架/模型不是绝对的，仅供参考，可以根据实际情况进行裁剪或调整</li>
+<li>世界上每个问题都不会完全一样，必需符合当前洞察问题的业务特征，正确的框架/模型可以帮助我们解决问题，但不匹配的框架/模型反而会影响问题的解决</li>
+<li>真正的专家，是找到或发现我们未知领域的框架/模型/规律，这其实也是科学研究的思维方式</li>
+</ul>
+<h3 id="_26">思维方式的训练</h3>
+<h4 id="_27">未来式思维方法</h4>
+<ul>
+<li>系统性
+颠覆式思维方法</li>
+<li>批判性</li>
+<li>创造性
+底线思维方法</li>
+<li>结构化</li>
+<li>逻辑化</li>
+<li>抽象化</li>
+</ul>
+<h4 id="_28">沟通与影响力</h4>
+<h4 id="_29">项目管理能力</h4>
+<h4 id="_30">行为方式</h4>
+<ul>
+<li>提出有深度的问题</li>
+<li>多视角分析</li>
+<li>日常结构化积累</li>
+<li>客户调研</li>
+<li>开放性洞察</li>
+</ul>
+<h4 id="_31">知识常识</h4>
+<ul>
+<li>产业知识</li>
+<li>行业知识</li>
+<li>市场项目拓展知识</li>
+<li>宏观知识</li>
+<li>业务经验</li>
+</ul>
+<h3 id="_32">小结</h3>
+<p>假设、机遇、风险变化、趋势、价值</p>
+<ul>
+<li>六个洞察能力<ul>
+<li>产业洞察</li>
+<li>客户洞森</li>
+<li>技术洞察</li>
+<li>宏观洞察</li>
+<li>行业洞察</li>
+<li>竞争洞察</li>
+</ul>
+</li>
+<li>两个核心逻辑<ul>
+<li>开发假设（预设的观点）</li>
+<li>收集证据（事实/数据）</li>
+<li>确认观点（量化/验证）</li>
+<li>收集信息（框架/模型）</li>
+<li>分析提炼（本质/规律 ）</li>
+<li>关键发现（新观点）</li>
+</ul>
+</li>
+<li>三阶九步项目运作<ul>
+<li>选题（提出问题）<ul>
+<li>确定洞察问题（目标）</li>
+<li>确定项目计划</li>
+<li>开发假设、分解问题（框架/模型）</li>
+</ul>
+</li>
+<li>解题（分析问题）<ul>
+<li>收集信息（数据+事实）</li>
+<li>提炼信息（结构+逻辑）</li>
+<li>输出观点（本质+规律）</li>
+<li>形成报告（Story line）</li>
+</ul>
+</li>
+<li>应用（解決问题）<ul>
+<li>内外部交流</li>
+<li>跟踪闭环</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>四种工作模式<ul>
+<li>Deep dive洞察（深）<ul>
+<li>SP C2、细分市场洞察、战略专题洞察、CSPA</li>
+</ul>
+</li>
+<li>热点洞察（快）<ul>
+<li>XX展会（如MWC）洞察、热点事件洞察</li>
+</ul>
+</li>
+<li>例行洞察（新）<ul>
+<li>宏观洞察月报、XX专题洞察月报</li>
+</ul>
+</li>
+<li>本质规律洞察（透）<ul>
+<li>本质+趋势+价值</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>五类资源日积月累<ul>
+<li>理论<ul>
+<li>框架+模型+规律</li>
+</ul>
+</li>
+<li>知识平台<ul>
+<li>报告+数据</li>
+</ul>
+</li>
+<li>工具技巧<ul>
+<li>小软件+技巧</li>
+</ul>
+</li>
+<li>思维<ul>
+<li>结构化/系统化</li>
+</ul>
+</li>
+<li>专家/朋友圈<ul>
+<li>内部+外部</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
