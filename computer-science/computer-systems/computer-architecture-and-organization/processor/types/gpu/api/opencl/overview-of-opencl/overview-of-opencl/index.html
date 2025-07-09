@@ -6594,6 +6594,7 @@ OpenCL（Open Computing Language，开放计算语言）是一套<strong>跨平�
 <h5 id="_12">命令状态</h5>
 <p>无论是子内核还是父内核，每个命令经过六个状态</p>
 <div class="mermaid">stateDiagram
+direction LR
     [*] --&gt; Queued : 任务派发
     Queued --&gt; Submitted : 进入调度
     Submitted --&gt; Ready : 资源就绪
@@ -6643,7 +6644,6 @@ OpenCL（Open Computing Language，开放计算语言）是一套<strong>跨平�
 </ul>
 <p>用于特殊用途的设备可作为built-in内核。平台提供API，用于枚举和调用built-in内核。</p>
 <h5 id="_15">索引空间</h5>
-<p><img alt="" src="./overview-of-opencl.assets/QcFPbiniHKHtB5UnQIN_bTg_pf9SQ5aOOPmTkNyhb9usxWivOCqTno9d49hXnmAV-Z-9QbfsGhnumKiWTAVmQSg.png"/></p>
 <p>OpenCL运行时将会创建一个整数索引空间。索引空间是OpenCL支持的一个N维网格，称为NDRange，其中N为1、2或3。三个长度为N的数据确定了NDRange的以下特征：</p>
 <ul>
 <li>每个维度索引空间（或全局大小）的范围；</li>
